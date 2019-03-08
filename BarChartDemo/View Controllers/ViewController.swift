@@ -25,12 +25,29 @@ class ViewController: UIViewController{
         chartData.append(MarkerInfo(percentLeft: 0.2, color: UIColor.yellow))
 
         barChart.dataSource = self
+        barChart.delegate = self
     }
-
+    
+    func updateUI(){
+        barChart.reloadData()
+        
+    }
 
 } //end class
 
-extension ViewController: BarChartDataSource{
+extension ViewController: BarChartDataSource, BarChartDelegate{
+    func tappedItemAtIndex(_ index: Int) {
+        
+        var marker = chartData[index]
+        
+        //custom colors
+        marker.color = UIColor(displayP3Red: CGFloat.random(in: 0...1.0), green: CGFloat.random(in: 0...1.0), blue: CGFloat.random(in: 0...1.0), alpha: 1.0)
+        
+        chartData[index] = marker
+        
+        updateUI()
+    }
+    
     func numberOfItemsInChart() -> Int {
         return chartData.count
     }

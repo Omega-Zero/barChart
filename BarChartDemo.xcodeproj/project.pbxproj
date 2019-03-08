@@ -14,6 +14,7 @@
 		C30B00AC222D897F00BE9962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30B00AA222D897F00BE9962 /* LaunchScreen.storyboard */; };
 		C30B00B7222D897F00BE9962 /* BarChartDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B00B6222D897F00BE9962 /* BarChartDemoTests.swift */; };
 		C30B00C2222D897F00BE9962 /* BarChartDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B00C1222D897F00BE9962 /* BarChartDemoUITests.swift */; };
+		C34507CB2232F7CC00EB984D /* BarChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34507CA2232F7CC00EB984D /* BarChartDelegate.swift */; };
 		C3ABE659222DB5F200301379 /* BarCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABE658222DB5F200301379 /* BarCharView.swift */; };
 		C3ABE65C222DB83400301379 /* MarkerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABE65B222DB83400301379 /* MarkerInfo.swift */; };
 		C3ABE65E222DC06100301379 /* BarChartDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABE65D222DC06100301379 /* BarChartDataSource.swift */; };
@@ -50,6 +51,7 @@
 		C30B00BD222D897F00BE9962 /* BarChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30B00C1222D897F00BE9962 /* BarChartDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDemoUITests.swift; sourceTree = "<group>"; };
 		C30B00C3222D897F00BE9962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34507CA2232F7CC00EB984D /* BarChartDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDelegate.swift; sourceTree = "<group>"; };
 		C3ABE658222DB5F200301379 /* BarCharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCharView.swift; sourceTree = "<group>"; };
 		C3ABE65B222DB83400301379 /* MarkerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerInfo.swift; sourceTree = "<group>"; };
 		C3ABE65D222DC06100301379 /* BarChartDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDataSource.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				C3ABE658222DB5F200301379 /* BarCharView.swift */,
 				C3ABE65D222DC06100301379 /* BarChartDataSource.swift */,
+				C34507CA2232F7CC00EB984D /* BarChartDelegate.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C30B00A4222D897C00BE9962 /* ViewController.swift in Sources */,
+				C34507CB2232F7CC00EB984D /* BarChartDelegate.swift in Sources */,
 				C3ABE65C222DB83400301379 /* MarkerInfo.swift in Sources */,
 				C3ABE65E222DC06100301379 /* BarChartDataSource.swift in Sources */,
 				C3ABE659222DB5F200301379 /* BarCharView.swift in Sources */,

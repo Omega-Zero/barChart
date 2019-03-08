@@ -18,13 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O5I-QX-iKF" customClass="BarCharView" customModule="BarChartDemo" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O5I-QX-iKF" customClass="BarCharView" customModule="BarChartDemo" customModuleProvider="target">
                                 <rect key="frame" x="16" y="225" width="343" height="180"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="O5I-QX-iKF" secondAttribute="bottom" constant="262" id="7ZZ-2b-3Fw"/>
+                            <constraint firstItem="O5I-QX-iKF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="205" id="CBq-2O-TeY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O5I-QX-iKF" secondAttribute="trailing" constant="16" id="CdB-Ca-JCd"/>
+                            <constraint firstItem="O5I-QX-iKF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="RPL-uM-kRT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
